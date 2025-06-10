@@ -1,7 +1,3 @@
-module github.com/example/galywhisper
+module github.com/Galygious/GalyWhisper
 
 go 1.21
-
-require (
-)
-

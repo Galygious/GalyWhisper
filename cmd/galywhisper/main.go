@@ -6,11 +6,10 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
-	"time"
 
-	"github.com/example/galywhisper/internal/audio"
-	"github.com/example/galywhisper/internal/keyboard"
-	"github.com/example/galywhisper/internal/whisper"
+	"github.com/Galygious/GalyWhisper/internal/audio"
+	"github.com/Galygious/GalyWhisper/internal/keyboard"
+	"github.com/Galygious/GalyWhisper/internal/whisper"
 )
 
 func main() {
@@ -42,6 +41,5 @@ func run(ctx context.Context) error {
 	fmt.Printf("Transcription: %s\n", text)
 	keyboard.Type(text)
 
-	time.Sleep(500 * time.Millisecond)
 	return nil
 }

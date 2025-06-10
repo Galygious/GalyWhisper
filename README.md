@@ -77,7 +77,7 @@ GalyWhisper/
 
 ### Building from Source
 
-This prototype can be built with Go. Real functionality requires additional dependencies such as whisper.cpp and PortAudio.
+This prototype can be built with Go. Real functionality requires additional dependencies, such as whisper.cpp and PortAudio.
 
 ```bash
 # Build for Windows
@@ -99,5 +99,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Whisper.cpp](https://github.com/ggerganov/whisper.cpp) for the Whisper model implementation
 - [PortAudio](https://www.portaudio.com/) for audio capture
-- [Wails](https://wails.io/ ) for the desktop application framework
+- [Wails](https://wails.io/) for the desktop application framework
 
