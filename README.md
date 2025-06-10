@@ -2,6 +2,8 @@
 
 A privacy-first desktop dictation application for Windows that provides real-time voice-to-text transcription with 100% local execution.
 
+This repository contains a minimal Go-based prototype showing the project structure. Key components such as audio capture and Whisper integration are implemented as placeholders for further development.
+
 ## 🌟 Features
 
 - **100% Local Execution**: All processing happens on your machine - no data leaves your computer
@@ -75,6 +77,8 @@ GalyWhisper/
 
 ### Building from Source
 
+This prototype can be built with Go. Real functionality requires additional dependencies, such as whisper.cpp and PortAudio.
+
 ```bash
 # Build for Windows
 go build -o GalyWhisper.exe ./cmd/galywhisper
@@ -95,4 +99,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Whisper.cpp](https://github.com/ggerganov/whisper.cpp) for the Whisper model implementation
 - [PortAudio](https://www.portaudio.com/) for audio capture
-- [Wails](https://wails.io/) for the desktop application framework 
+- [Wails](https://wails.io/) for the desktop application framework
+
